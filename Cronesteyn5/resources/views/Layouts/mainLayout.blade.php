@@ -8,7 +8,7 @@
 
 <body>
 
-
+@include('Includes/Navbar')
 @yield('content')
 
 

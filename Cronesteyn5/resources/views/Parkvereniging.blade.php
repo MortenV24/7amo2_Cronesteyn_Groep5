@@ -1,8 +1,8 @@
 @extends('Layouts/mainLayout')
 
-@section('title', 'Home')
+@section('title', 'Parkvereniging')
 
 @section('content')
-    <h1>Home</h1>
+    <h1>Parkvereniging</h1>
 @endsection
 

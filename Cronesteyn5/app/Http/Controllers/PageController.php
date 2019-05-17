@@ -11,4 +11,8 @@ class pagecontroller extends Controller
         return view('index');
     }
 
+    public function parkvereniging(){
+        return view('parkvereniging');
+    }
+
 }
