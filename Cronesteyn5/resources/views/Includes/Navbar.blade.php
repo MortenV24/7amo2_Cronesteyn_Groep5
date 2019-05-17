@@ -14,16 +14,6 @@
                     <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">@</span>
-                    </div>
-                    <input type="text" class="form-control mr-sm-2" placeholder="Gebruikersnaam" aria-label="Gebruikersnaam" aria-describedby="basic-addon1">
-
-                    <input type="password" class="form-control " placeholder="Wachtwoord" aria-label="Wachtwoord" aria-describedby="basic-addon1">
-                </div>
-            </form>
         </div>
 
 </nav>
