@@ -1,3 +1,4 @@
 @foreach ($contents as $content)
-    <li>{{$content->title}}</li>
+    <h3>{{$content->title}}</h3>
+    <p>{{$content->text}}</p>
 @endforeach
