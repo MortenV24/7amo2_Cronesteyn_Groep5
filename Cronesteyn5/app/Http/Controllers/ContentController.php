@@ -2,16 +2,17 @@
 
 namespace App\Http\Controllers;
 
-use App\ContentParkvereniging;
+use App\content;
 use Illuminate\Http\Request;
 
 class ContentController extends Controller
 {
     public function storeParkvereniging(){
 
-        $ContentParkvereniging = new ContentParkvereniging();
+        $ContentParkvereniging = new content();
         $ContentParkvereniging->title = request('title');
         $ContentParkvereniging->text = request('text');
+        $ContentParkvereniging->type = request('type');
 
         $ContentParkvereniging->save();
 
