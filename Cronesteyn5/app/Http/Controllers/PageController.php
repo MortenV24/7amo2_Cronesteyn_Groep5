@@ -16,6 +16,9 @@ class pagecontroller extends Controller
         return view('parkvereniging');
     }
 
+    public function contentAanmaken(){
+        return view('admin/contentAanmaken');
+    }
 
 
 
