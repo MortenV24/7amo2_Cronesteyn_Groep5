@@ -9,8 +9,8 @@
         <label for="exampleFormControlSelect1">Type content</label>
         <select class="form-control" name="type" id="exampleFormControlSelect1">
             <option value="Parkvereniging">Parkvereniging</option>
-            <option>2</option>
-            <option>3</option>
+            <option value="home">Home</option>
+            <option value="vogelwerkgroep">vogelwerkgroep</option>
             <option>4</option>
             <option>5</option>
         </select>
