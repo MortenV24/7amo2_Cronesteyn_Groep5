@@ -13,7 +13,8 @@ class pagecontroller extends Controller
     }
 
     public function parkvereniging(){
-        return view('parkvereniging');
+        $contents = \App\content::all();
+        return view('parkvereniging', compact('contents'));
     }
 
     public function contentAanmaken(){

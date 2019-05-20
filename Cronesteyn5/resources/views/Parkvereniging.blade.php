@@ -4,5 +4,6 @@
 
 @section('content')
     <h1>Parkvereniging</h1>
+    @include('admin/parkverenigingContent'
 @endsection
 
