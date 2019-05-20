@@ -13,6 +13,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
+                </li>
             </ul>
         </div>
 

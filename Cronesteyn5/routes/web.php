@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::get('/index', 'pagecontroller@index');
 Route::get('/parkvereniging', 'pagecontroller@Parkvereniging');
-
+Route::post('/ContentParkvereniging', 'Contactcontroller@storeParkvereniging');
