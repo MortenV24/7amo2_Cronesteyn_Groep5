@@ -18,4 +18,4 @@ Route::get('/', function () {
 Route::get('/index', 'pagecontroller@index');
 Route::get('/parkvereniging', 'pagecontroller@Parkvereniging');
 Route::get('/admin/contentAanmaken', 'pagecontroller@contentAanmaken');
-Route::post('/ContentParkvereniging', 'Contactcontroller@storeParkvereniging');
+Route::post('/ContentParkvereniging', 'Contentcontroller@storeParkvereniging');
