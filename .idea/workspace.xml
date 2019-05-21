@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b860b27-5742-49f2-89c0-30880366232a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Banner.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/ContentAanmaakForm.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/ContentAanmaakForm.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,28 +52,28 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="example" value="1" />
-          <entry key="php" value="113" />
+          <entry key="php" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="51" />
-          <entry key="PHP" value="59" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Blade" value="54" />
+          <entry key="PHP" value="63" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="env" value="89" />
-          <entry key="php" value="1448" />
+          <entry key="php" value="1918" />
           <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="409" />
-          <entry key="PHP" value="965" />
-          <entry key="PLAIN_TEXT" value="178" />
+          <entry key="Blade" value="793" />
+          <entry key="PHP" value="1042" />
+          <entry key="PLAIN_TEXT" value="187" />
         </counts>
       </usages-collector>
     </session>
@@ -83,11 +89,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            <state relative-caret-position="34">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Banner.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -95,8 +137,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -122,14 +173,15 @@
         <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Admin/contentAanmaken.blade.php" />
         <option value="$PROJECT_DIR$/Cronesteyn5/routes/web.php" />
         <option value="$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_075510_content_parkvereniging.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php" />
         <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkvereniging.blade.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php" />
-        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/ContentAanmaakForm.blade.php" />
         <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/ContentAanmaakForm.blade.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php" />
+        <option value="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Banner.blade.php" />
       </list>
     </option>
   </component>
@@ -254,7 +306,34 @@
               <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
               <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
               <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
+              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="Includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -304,16 +383,15 @@
       <workItem from="1558337203630" duration="3568000" />
       <workItem from="1558344210501" duration="1657000" />
       <workItem from="1558427532462" duration="884000" />
-      <workItem from="1558428486877" duration="838000" />
+      <workItem from="1558428486877" duration="5096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18633000" />
+    <option name="totallyTimeSpent" value="22891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -328,7 +406,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19148937" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.19088937" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -336,7 +414,7 @@
       <window_info anchor="right" id="Database" order="3" weight="0.3295302" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16845638" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1716418" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -349,7 +427,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19148937" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19088937" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -450,9 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/auth/register.blade.php" />
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/auth/login.blade.php" />
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/User.php">
@@ -534,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../leerjaar 2/Laravel/opdr05/opdr05/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -559,31 +627,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -594,6 +641,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/database/migrations/2019_05_20_083415_content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/ContentController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Parkvereniging.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/app/Http/Controllers/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/ContentAanmaakForm.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -601,17 +693,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/parkverenigingContent.blade.php">
+    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Banner.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>

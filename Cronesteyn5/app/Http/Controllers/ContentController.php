@@ -11,7 +11,8 @@ class ContentController extends Controller
 
         $ContentParkvereniging = new content();
         $ContentParkvereniging->title = request('title');
-        $ContentParkvereniging->text = request('text');
+        $ContentParkvereniging->text = request('text', false);
+        $ContentParkvereniging->foto = request('foto');
         $ContentParkvereniging->type = request('type');
 
         $ContentParkvereniging->save();

@@ -11,7 +11,7 @@
             <option value="Parkvereniging">Parkvereniging</option>
             <option value="home">Home</option>
             <option value="vogelwerkgroep">vogelwerkgroep</option>
-            <option>4</option>
+            <option value="foto">Foto</option>
             <option>5</option>
         </select>
     </div>
@@ -20,6 +20,8 @@
         <label for="exampleFormControlTextarea1">text</label>
         <textarea class="form-control" name="text" id="exampleFormControlTextarea1" rows="3"></textarea>
     </div>
+
+    <input type="file" id="foto" name="foto" accept="image/png, image/jpeg">
 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
