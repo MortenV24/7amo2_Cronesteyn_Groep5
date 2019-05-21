@@ -16,6 +16,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">homo 2</a>
+                </li>
             </ul>
         </div>
 </nav>
