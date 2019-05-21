@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b860b27-5742-49f2-89c0-30880366232a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,8 +86,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -253,36 +254,7 @@
               <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
               <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
               <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
-              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
-              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
-              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="7amo2_Cronesteyn_Groep1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="7amo2_Cronesteyn_Groep1" type="462c0819:PsiDirectoryNode" />
-              <item name="Cronesteyn5" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Includes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,12 +304,12 @@
       <workItem from="1558337203630" duration="3568000" />
       <workItem from="1558344210501" duration="1657000" />
       <workItem from="1558427532462" duration="884000" />
-      <workItem from="1558428486877" duration="486000" />
+      <workItem from="1558428486877" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18281000" />
+    <option name="totallyTimeSpent" value="18633000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -638,8 +610,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cronesteyn5/resources/views/Includes/Navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="87" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+        <state relative-caret-position="340">
+          <caret line="20" column="6" lean-forward="true" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>
