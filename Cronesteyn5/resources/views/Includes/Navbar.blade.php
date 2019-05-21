@@ -20,6 +20,13 @@
                     <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">homo maken</a>
                 </li>
 
+                <li class="nav-item">
+
+                    <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">homo 2</a>
+
+                    <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">nieps maken</a>
+
+                </li>
             </ul>
         </div>
 </nav>
