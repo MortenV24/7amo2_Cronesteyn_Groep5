@@ -1,0 +1,20 @@
+.banner{
+     width: 100% !important;
+     height: 80vh !important;
+     overflow: hidden;
+ }
+
+#BannerFoto{
+    margin-top: -63vh;
+    width: 100%;
+    z-index: -1;
+}
+#BannerTekst{
+    color: white;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    font-size: 15vh;
+    margin-top: 19vh;
+
+}

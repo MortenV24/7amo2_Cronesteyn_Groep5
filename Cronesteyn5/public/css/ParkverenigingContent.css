@@ -1,0 +1,12 @@
+.contentvak h1{
+    color: #6cba3d;
+    letter-spacing: 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contentvak {
+    margin: 60px;
+max-width: 30vw !important;
+    background-color: #F9F9F9;
+}

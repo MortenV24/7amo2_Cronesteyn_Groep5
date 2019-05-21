@@ -1,5 +1,7 @@
 @foreach ($contents as $content)
-    <h3>{{$content->title}}</h3>
+   <div class="container contentvak">
+    <h1>{{$content->title}}</h1>
     <p>{{$content->text}}</p>
+   </div>
 @endforeach
 
