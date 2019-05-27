@@ -13,6 +13,11 @@ class pagecontroller extends Controller
         return view('index');
     }
 
+    public function activiteiten() {
+        $contents = \App\content::where('type','activiteiten')->get();
+        return view('activiteiten', compact('contents'));
+    }
+
     public function parkvereniging(){
         $contents = \App\content::where('type','Parkvereniging')->get();
         $Bannerfoto = \App\content::where('title','banner foto 1')->get();

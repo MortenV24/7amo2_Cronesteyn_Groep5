@@ -1,6 +1,6 @@
 @extends('Layouts/mainLayout')
 
-@section('title', 'Home')
+@section('title', 'Vogelwerkgroep')
 
 @section('content')
     <h1>Vogelwerkgroep</h1>
