@@ -3,5 +3,5 @@
 @section('title', 'Home')
 
 @section('content')
-    <h1>Login</h1>
+    <h1>Loginphp </h1>
 @endsection
