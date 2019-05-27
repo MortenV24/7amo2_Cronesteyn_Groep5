@@ -1,0 +1,10 @@
+.newsitem{
+    max-width: 20vw !important;
+    max-height: 5vw !important;
+    margin: 10px;
+    background-color: #F9F9F9;
+    overflow: hidden;
+}
+.newsitem h1{
+    font-size: 1.2vw;
+}

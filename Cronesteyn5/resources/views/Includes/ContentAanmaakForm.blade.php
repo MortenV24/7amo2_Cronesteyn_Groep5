@@ -12,6 +12,7 @@
             <option value="home">Home</option>
             <option value="vogelwerkgroep">vogelwerkgroep</option>
             <option value="foto">Foto</option>
+            <option value="newsItem">News Item</option>
             <option>5</option>
         </select>
     </div>
