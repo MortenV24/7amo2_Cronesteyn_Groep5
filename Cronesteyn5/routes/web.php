@@ -11,11 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-
-Route::get('/index', 'pagecontroller@index');
+Route::get('/', 'pagecontroller@index');
 Route::get('/parkvereniging', 'pagecontroller@Parkvereniging');
 Route::get('/admin/contentAanmaken', 'pagecontroller@contentAanmaken');
 Route::get('/activiteiten', 'pagecontroller@activiteiten');

@@ -11,7 +11,7 @@ class pagecontroller extends Controller
     {
         $contents = \App\content::where('type','home')->get();
         $backgroundimage = \App\content::where('title', 'backgroundsquirrel')->get();
-        return view('index', compact('backgroundimage'));
+        return view('index', compact('contents','backgroundimage'));
     }
 
     public function activiteiten() {
