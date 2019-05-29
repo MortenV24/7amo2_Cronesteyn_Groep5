@@ -20,7 +20,7 @@
                             <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/activiteiten') }}">activiteiten</a>
+                            <a class="nav-link" href="{{ url('/activiteiten') }}">Activiteiten</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
