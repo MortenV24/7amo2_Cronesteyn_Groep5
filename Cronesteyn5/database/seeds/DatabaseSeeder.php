@@ -38,6 +38,13 @@ class DatabaseSeeder extends Seeder
                         Wilt u de vereniging helpen door lid te worden, klik dan hier.',
             'type' => 'Parkvereniging'
         ]);
+
+        DB::table('contents')->insert([
+            'title' => 'Programma van 2019',
+            'foto'=> 'haas jong.jpg',
+            'text' => 'Alle activiteiten starten bij De tuin van de smid, tenzij anders aangegeven.',
+            'type' => 'Activiteiten'
+        ]);
     }
 
 }

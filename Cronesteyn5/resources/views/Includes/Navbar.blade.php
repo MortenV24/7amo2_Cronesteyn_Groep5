@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
         <div class="container">
             <a class="navbar-brand" href="{{ url('/') }}">
-               Annie's
+               Home
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                 <span class="navbar-toggler-icon"></span>
@@ -20,7 +20,7 @@
                             <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/activiteiten') }}">activiteiten</a>
+                            <a class="nav-link" href="{{ url('/activiteiten') }}">Activiteiten</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>

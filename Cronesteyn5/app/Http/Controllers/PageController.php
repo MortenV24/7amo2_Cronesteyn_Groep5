@@ -16,7 +16,9 @@ class pagecontroller extends Controller
 
     public function activiteiten() {
         $contents = \App\content::where('type','activiteiten')->get();
-        return view('activiteiten', compact('contents'));
+        $Bannerfoto = \App\content::where('title','banner foto 1')->get();
+        $newsitems = \App\content::where('type', 'newsItem')->get();
+        return view('activiteiten', compact('contents','Bannerfoto','newsitems'));
     }
 
     public function parkvereniging(){
