@@ -16,7 +16,7 @@ class Content extends Migration
         Schema::create('contents', function (Blueprint $table) {
             $table->increments('id');
             $table->string('title');
-            $table->string('text', 999);
+            $table->string('text', 9999);
             $table->string('foto');
             $table->string('type');
             $table->timestamps();
