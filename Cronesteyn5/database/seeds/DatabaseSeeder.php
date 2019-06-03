@@ -25,6 +25,13 @@ class DatabaseSeeder extends Seeder
             'text' => 'Polderpark Cronesteyn is met 86 ha het grootste park in Leiden. Het bestaat nog relatief kort.In 1981 is het ontworpen door landschapsarchitect Evert Cornet (zie foto) van de gemeente Leiden. Sindsdien is het in 35 jaar een volwassen park geworden. Het park kent veel verschillende typen leefgebied, natuurlijk veel polder met weilanden en sloten, maar ook jonge bospercelen en struiken, een reigerkolonie die zetelt op de elzen van voormalige kwekerijen, grienden, een moerastuin en bos met resten van een oud landgoed. Door al die verschillende biotopen kent het de grootste soortenrijkdom van alle Leidse parken.',
             'type' => 'Parkvereniging'
         ]);
+
+        DB::table('contents')->insert([
+            'title' => 'Programma van 2019',
+            'foto'=> 'haas jong.jpg',
+            'text' => 'Alle activiteiten starten bij De tuin van de smid, tenzij anders aangegeven.',
+            'type' => 'Activiteiten'
+        ]);
     }
 
 }
