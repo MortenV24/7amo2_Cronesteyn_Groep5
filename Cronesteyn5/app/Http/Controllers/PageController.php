@@ -9,7 +9,7 @@ class pagecontroller extends Controller
 {
     public function index()
     {
-        $contents = \App\content::where('type','home')->get();
+        $contents = \App\content::where('type','Home')->get();
         $backgroundimage = \App\content::where('title', 'backgroundsquirrel')->get();
         return view('index', compact('contents','backgroundimage'));
     }
