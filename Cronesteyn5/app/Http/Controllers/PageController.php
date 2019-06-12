@@ -20,6 +20,9 @@ class pagecontroller extends Controller
         $newsitems = \App\content::where('type', 'newsItem')->get();
         return view('activiteiten', compact('contents','Bannerfoto','newsitems'));
     }
+    public function vogelwerkgroep() {
+        return view('vogelwerkgroep');
+    }
 
     public function parkvereniging(){
         $contents = \App\content::where('type','Parkvereniging')->get();
