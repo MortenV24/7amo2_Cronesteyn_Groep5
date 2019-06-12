@@ -21,7 +21,9 @@ class pagecontroller extends Controller
         return view('activiteiten', compact('contents','Bannerfoto','newsitems'));
     }
     public function vogelwerkgroep() {
-        return view('vogelwerkgroep');
+        $contents = \App\content::where('type','Vogelwerkgroep')->get();
+        $Bannerfoto = \App\content::where('title','banner foto 1')->get();
+        return view('vogelwerkgroep', compact('contents', 'Bannerfoto'));
     }
 
     public function parkvereniging(){

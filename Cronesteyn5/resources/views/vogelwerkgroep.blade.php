@@ -1,7 +1,10 @@
+
 @extends('Layouts/mainLayout')
 
 @section('title', 'Vogelwerkgroep')
-
+@section('BannerTekst', 'Vogelwerkgroep')
 @section('content')
-    <h1>Vogelwerkgroep</h1>
+    @include('Includes/Banner')
+
+
 @endsection
