@@ -33,13 +33,9 @@ class pagecontroller extends Controller
         return view('parkvereniging', compact('contents', 'Bannerfoto', 'newsitems'));
     }
 
-    public function contentAanmaken(){
-    return view('admin/contentAanmaken');
-}
 
-    public function contentVeranderen(){
-        return view('admin/contentVeranderen');
-    }
+
+
 
 
 }

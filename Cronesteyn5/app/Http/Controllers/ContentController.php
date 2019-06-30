@@ -6,7 +6,17 @@ use App\content;
 use Illuminate\Http\Request;
 
 class ContentController extends Controller
+
+
+
+
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function store(){
 
         $Content = new content();

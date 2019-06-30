@@ -13,11 +13,8 @@
 
 Route::get('/', 'pagecontroller@index');
 Route::get('/parkvereniging', 'pagecontroller@Parkvereniging');
-Route::get('/admin/contentAanmaken', 'pagecontroller@contentAanmaken');
-Route::get('/admin/contentVeranderen', 'pagecontroller@contentVeranderen');
 Route::get('/activiteiten', 'pagecontroller@activiteiten');
 Route::get('/vogelwerkgroep', 'pagecontroller@vogelwerkgroep');
-
 Route::resource('Content','Contentcontroller');
 
 
@@ -27,3 +24,5 @@ Auth::routes();
 
 
 Route::get('/dashboard', 'DashboardController@index')   ;
+Route::get('/admin/contentAanmaken', 'DashboardController@contentAanmaken');
+Route::get('/admin/contentVeranderen', 'DashboardController@contentVeranderen');

@@ -25,4 +25,12 @@ class DashboardController extends Controller
     {
         return view('dashboard');
     }
+
+    public function contentAanmaken(){
+        return view('admin/contentAanmaken');
+    }
+
+    public function contentVeranderen(){
+        return view('admin/contentVeranderen');
+    }
 }
