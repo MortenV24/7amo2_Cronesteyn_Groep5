@@ -15,28 +15,26 @@
 
                 <!-- Right Side Of Navbar -->
                 <ul class="navbar-nav ml-auto">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/activiteiten') }}">Activiteiten</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/vogelwerkgroep') }}">Vogelwerkgroep</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
-                        </li>
-                    </ul>
+
                     <!-- Authentication Links -->
                     @guest
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/parkvereniging') }}">Parkvereniging</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/activiteiten') }}">Activiteiten</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/vogelwerkgroep') }}">Vogelwerkgroep</a>
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
+                        </ul>
                     @else
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -54,6 +52,9 @@
                                     @csrf
                                 </form>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
                         </li>
                     @endguest
                 </ul>

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Auth;
-
+use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
@@ -25,7 +25,7 @@ class LoginController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/dashboard';
+    protected $redirectTo = 'dashboard';
 
     /**
      * Create a new controller instance.
@@ -38,23 +38,26 @@ class LoginController extends Controller
     }
     protected $username = 'email';
 
-    public function loginNameOrEmail(Request $request)
-    {
-        $field = filter_var($request->input('email'), FILTER_VALIDATE_EMAIL) ? 'email_address' : 'username';
-
-        $request->merge([$field => $request->input('email')]);
-
-        $this->username = $field;
-
-        return $this->login($request);
-
-    }
 
 
-    public function username()
-    {
-        return $this->username;
-    }
+//
+//    public function loginNameOrEmail(Request $request)
+//    {
+//        $field = filter_var($request->input('name'), FILTER_VALIDATE_EMAIL) ? 'email_address' : 'username';
+//
+//        $request->merge([$field => $request->input('name')]);
+//
+//        $this->username = $field;
+//
+//        return $this->login($request);
+//
+//    }
+
+
+//    public function username()
+//    {
+//        return $this->username;
+//    }
 
 
 

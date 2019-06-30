@@ -4,8 +4,7 @@
     <?php
 
     ?>
-@foreach ($Bannerfoto as $Bannerfoto)
-    <img src="{{ URL::to('/img/' . $Bannerfoto->foto) }}" alt="{{ $Bannerfoto->title }}" id="BannerFoto" />
+
     @foreach ($Bannerfoto as $Bannerfoto)
         <img src="{{ URL::to('/img/' . $Bannerfoto->foto) }}" alt="{{ $Bannerfoto->title }}" id="BannerFoto"/>
     @endforeach

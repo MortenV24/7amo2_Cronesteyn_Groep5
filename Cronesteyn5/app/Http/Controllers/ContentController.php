@@ -7,17 +7,44 @@ use Illuminate\Http\Request;
 
 class ContentController extends Controller
 {
-    public function storeParkvereniging(){
+    public function store(){
 
-        $ContentParkvereniging = new content();
-        $ContentParkvereniging->title = request('title');
-        $ContentParkvereniging->text = request('text', false);
-        $ContentParkvereniging->foto = request('foto',false );
-        $ContentParkvereniging->type = request('type');
+        $Content = new content();
+        $Content->title = request('title');
+        $Content->text = request('text', false);
+        $Content->foto = request('foto',false );
+        $Content->type = request('type');
 
-        $ContentParkvereniging->save();
+        $Content->save();
 
 
-        return redirect('/index');
+        return redirect('/dashboard');
     }
+
+
+    public function edit($id){
+
+
+
+        $content = content::find($id);
+
+        return view('admin/contentVeranderen', compact('content'));
+    }
+
+    public function update($id){
+
+
+
+        $content = content::find($id);
+
+        $content->title = request('title');
+        $content->text = request('text', false);
+        $content->foto = request('foto',false );
+        $content->type = request('type');
+
+        $content->save();
+        return redirect('/dashboard');
+
+    }
+
 }
