@@ -45,6 +45,18 @@ class DatabaseSeeder extends Seeder
             'text' => 'Alle activiteiten starten bij De tuin van de smid, tenzij anders aangegeven.',
             'type' => 'Activiteiten'
         ]);
+        DB::table('contents')->insert([
+            'title' => 'Mei:',
+            'foto'=> '',
+            'text' => 'Lorem Ipsum',
+            'type' => 'Vogelwerkgroep'
+        ]);
+        DB::table('contents')->insert([
+            'title' => 'backgroundsquirrel',
+            'foto'=> 'background_squirrel.jpeg',
+            'text' => '',
+            'type' => 'Home'
+        ]);
     }
 
 }

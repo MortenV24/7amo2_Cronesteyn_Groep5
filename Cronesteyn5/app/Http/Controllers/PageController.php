@@ -9,7 +9,7 @@ class pagecontroller extends Controller
 {
     public function index()
     {
-        $contents = \App\content::where('type','home')->get();
+        $contents = \App\content::where('type','Home')->get();
         $backgroundimage = \App\content::where('title', 'backgroundsquirrel')->get();
         return view('index', compact('contents','backgroundimage'));
     }
@@ -19,6 +19,11 @@ class pagecontroller extends Controller
         $Bannerfoto = \App\content::where('title','banner foto 1')->get();
         $newsitems = \App\content::where('type', 'newsItem')->get();
         return view('activiteiten', compact('contents','Bannerfoto','newsitems'));
+    }
+    public function vogelwerkgroep() {
+        $contents = \App\content::where('type','Vogelwerkgroep')->get();
+        $Bannerfoto = \App\content::where('title','banner foto 1')->get();
+        return view('vogelwerkgroep', compact('contents', 'Bannerfoto'));
     }
 
     public function parkvereniging(){

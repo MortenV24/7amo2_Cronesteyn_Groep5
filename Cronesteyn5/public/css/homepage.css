@@ -1,16 +1,66 @@
 body, html {
     height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("img_girl.jpg");
 
-    /* Full height */
-    height: 100%;
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h1 {
+    text-align:center;
+}
+#homepageText {
+    position: absolute;
+    top: 200px;
+    left: 10%;
+    color: black;
+    font: bold 24px/45px Helvetica, Sans-Serif;
+    letter-spacing: -1px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+}
+
+
+@media (max-width: 1400px) {
+    body, html {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: auto
+    }
+    #homepageText {
+        margin-right: 150px;
+    }
+
+}
+@media (max-width: 795px){
+    body, html {
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #homepageText {
+        visibility: hidden;
+    }
+    h1 {
+        position: absolute;
+        top: 200px;
+        left:10%;
+        right:10%;
+        color: black;
+        font: bold 24px/45px Helvetica, Sans-Serif;
+        letter-spacing: -1px;
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+    }
+    p {
+        visibility: hidden;
+    }
+    h1 {
+        text-align:center;
+    }
+
 }

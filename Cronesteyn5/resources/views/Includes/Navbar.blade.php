@@ -23,6 +23,9 @@
                             <a class="nav-link" href="{{ url('/activiteiten') }}">Activiteiten</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/vogelwerkgroep') }}">Vogelwerkgroep</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
                         </li>
                     </ul>
