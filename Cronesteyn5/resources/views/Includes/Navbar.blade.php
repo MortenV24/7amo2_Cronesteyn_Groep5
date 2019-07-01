@@ -28,6 +28,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/vogelwerkgroep') }}">Vogelwerkgroep</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/contact') }}">contact</a>
+                            </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                         </li>
@@ -57,8 +60,12 @@
                             <a class="nav-link" href="{{ url('/admin/Content') }}">content</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/admin/contactBerichten') }}">contact berichten</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
                         </li>
+
                     @endguest
                 </ul>
             </div>

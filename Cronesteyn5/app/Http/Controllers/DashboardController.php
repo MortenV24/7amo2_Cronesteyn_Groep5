@@ -37,4 +37,8 @@ class DashboardController extends Controller
         $contents = \App\content::all();
         return view('admin/Content', compact('contents'));
     }
+    public function contact(){
+        $contact = \App\contact::all();
+        return view('admin/contactBerichten', compact('contact'));
+    }
 }

@@ -1,7 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\content;
+use App\contact;
 use Illuminate\Http\Request;
 
 
@@ -27,11 +28,31 @@ class pagecontroller extends Controller
     }
 
     public function parkvereniging(){
-        $contents = \App\content::where('type','Parkvereniging')->get();
-        $Bannerfoto = \App\content::where('title','banner foto 1')->get();
-        $newsitems = \App\content::where('type', 'newsItem')->get();
+        $contents = content::where('type','Parkvereniging')->get();
+        $Bannerfoto = content::where('title','banner foto 1')->get();
+        $newsitems = content::where('type', 'newsItem')->get();
         return view('parkvereniging', compact('contents', 'Bannerfoto', 'newsitems'));
     }
+    public function contact(){
+        return view('contact');
+    }
+    public function show($id){
+        $contact = contact::findOrFail($id);
+        return view('admin/contactShow', compact('contact'));
+    }
+
+    public function store(){
+
+        $contact = new contact();
+        $contact->naam = request('naam');
+        $contact->text = request('text');
+
+        $contact->save();
+
+
+        return redirect('/contact');
+    }
+
 
 
 
