@@ -45,7 +45,7 @@ class ContentController extends Controller
 
 
 
-        $content = content::find($id);
+        $content = content::findOrFail($id);
 
         $content->title = request('title');
         $content->text = request('text', false);
@@ -55,6 +55,17 @@ class ContentController extends Controller
         $content->save();
         return redirect('/dashboard');
 
+    }
+
+    public function destroy($id){
+        content::findOrFail($id)->delete();
+        return redirect('/dashboard');
+
+    }
+
+    public function show($id){
+        $content = content::findOrFail($id);
+        return view('admin/contentShow', compact('content'));
     }
 
 }

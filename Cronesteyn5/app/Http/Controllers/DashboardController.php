@@ -33,4 +33,8 @@ class DashboardController extends Controller
     public function contentVeranderen(){
         return view('admin/contentVeranderen');
     }
+    public function Content(){
+        $contents = \App\content::all();
+        return view('admin/Content', compact('contents'));
+    }
 }

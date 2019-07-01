@@ -54,6 +54,9 @@
                             </div>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="{{ url('/admin/Content') }}">content</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="{{ url('/admin/contentAanmaken') }}">content maken</a>
                         </li>
                     @endguest

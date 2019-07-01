@@ -33,6 +33,13 @@
                 <input type="file" id="foto" name="foto"  accept="image/png, image/jpeg">
 
                 <button type="submit" class="btn btn-primary">Update</button>
+
+            </form>
+            <form method="POST" action="/Content/{{ $content->id }}">
+
+                {{method_field('DELETE')}}
+                {{ csrf_field() }}
+                <button type="submit" class="btn btn">Delete </button>
             </form>
         </div>
     </div>

@@ -26,3 +26,4 @@ Auth::routes();
 Route::get('/dashboard', 'DashboardController@index')   ;
 Route::get('/admin/contentAanmaken', 'DashboardController@contentAanmaken');
 Route::get('/admin/contentVeranderen', 'DashboardController@contentVeranderen');
+Route::get('/admin/Content', 'DashboardController@Content');
