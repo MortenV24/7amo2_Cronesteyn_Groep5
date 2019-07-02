@@ -41,4 +41,9 @@ class DashboardController extends Controller
         $contact = \App\contact::all();
         return view('admin/contactBerichten', compact('contact'));
     }
+
+    public function changePermissions(){
+        $users = \App\User::all();
+        return view('admin/changePermissions', compact('users'));
+    }
 }

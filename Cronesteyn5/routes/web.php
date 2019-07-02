@@ -30,3 +30,4 @@ Route::get('/admin/contentAanmaken', 'DashboardController@contentAanmaken');
 Route::get('/admin/contentVeranderen', 'DashboardController@contentVeranderen');
 Route::get('/admin/Content', 'DashboardController@Content');
 Route::get('/admin/contactBerichten', 'DashboardController@contact');
+Route::get('admin/changePermissions', 'DashboardController@changePermissions');
