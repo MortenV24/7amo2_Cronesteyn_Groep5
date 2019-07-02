@@ -18,7 +18,8 @@ class pagecontroller extends Controller
     public function gallery() {
         $contents = content::where('type','Gallery')->get();
         $Bannerfoto = content::where('title','banner foto 1')->get();
-        return view('gallery', compact('contents', 'Bannerfoto'));
+        $slides = content::where('type', 'slider')->get();
+        return view('gallery', compact('contents', 'Bannerfoto', 'slides'));
     }
 
     public function activiteiten() {

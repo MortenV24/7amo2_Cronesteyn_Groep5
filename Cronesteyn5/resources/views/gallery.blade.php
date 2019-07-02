@@ -19,26 +19,58 @@
         </div>
     </div>
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <?php
+            $i = 0;
+            foreach($slides as $slide){
+            if($i == 0){
+            ?>
+            <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $i; ?>" class="active"></li>
+            <?php
+            $i++;  }else{
+            if($i != 0){
+            ?>
+            <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $i; ?>" ></li>
+            <?php
+            } $i++;
+            }
+            }
+            ?>
+        </ol>
         <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="..." alt="First slide">
+            <?php
+            $i = 0;
+            foreach($slides as $slide){
+            if($i == 0){
+            ?>
+
+            <div class="carousel-item active col-sm-6" style="margin: 0 auto; margin-top: 50px; float: none;">
+                <img src="img/{{$slide->foto}}" width="1000px" height="750px" alt="{{$slide->title}}">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Second slide">
+            <?php
+            $i++;   } else{
+            if($i != 0){
+            ?>
+                <div class="carousel-item col-sm-6" style="margin: 0 auto; margin-top: 50px; float: none;">
+                <img src="img/{{$slide->foto}}" width="1000px" height="750px" alt="{{$slide->title}}">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="..." alt="Third slide">
-            </div>
+            <?php
+            } $i++;
+            }
+            }
+            ?>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <a class="carousel-control-prev"  href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a>
     </div>
+
 
 @endsection
