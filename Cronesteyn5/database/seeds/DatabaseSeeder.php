@@ -52,10 +52,28 @@ class DatabaseSeeder extends Seeder
             'type' => 'Vogelwerkgroep'
         ]);
         DB::table('contents')->insert([
-            'title' => 'backgroundsquirrel',
-            'foto'=> 'background_squirrel.jpeg',
+            'title' => 'slider1',
+            'foto'=> 'slider1.jpeg',
             'text' => '',
-            'type' => 'Home'
+            'type' => 'slider'
+        ]);
+        DB::table('contents')->insert([
+            'title' => 'slider2',
+            'foto'=> 'slider2.jpeg',
+            'text' => '',
+            'type' => 'slider'
+        ]);
+        DB::table('contents')->insert([
+            'title' => 'slider3',
+            'foto'=> 'slider3.jpeg',
+            'text' => '',
+            'type' => 'slider'
+        ]);
+        DB::table('contents')->insert([
+            'title' => 'slider4',
+            'foto'=> 'slider4.jpeg',
+            'text' => '',
+            'type' => 'slider'
         ]);
     }
 

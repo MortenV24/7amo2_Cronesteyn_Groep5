@@ -15,6 +15,12 @@ class pagecontroller extends Controller
         return view('index', compact('contents','backgroundimage'));
     }
 
+    public function gallery() {
+        $contents = content::where('type','Gallery')->get();
+        $Bannerfoto = content::where('title','banner foto 1')->get();
+        return view('gallery', compact('contents', 'Bannerfoto'));
+    }
+
     public function activiteiten() {
         $contents = \App\content::where('type','activiteiten')->get();
         $Bannerfoto = \App\content::where('title','banner foto 1')->get();

@@ -15,6 +15,7 @@ Route::get('/', 'pagecontroller@index');
 Route::get('/parkvereniging', 'pagecontroller@Parkvereniging');
 Route::get('/activiteiten', 'pagecontroller@activiteiten');
 Route::get('/vogelwerkgroep', 'pagecontroller@vogelwerkgroep');
+Route::get('/gallery', 'pagecontroller@gallery');
 
 Route::resource('Content','Contentcontroller');
 Route::post('contact','pagecontroller@store');

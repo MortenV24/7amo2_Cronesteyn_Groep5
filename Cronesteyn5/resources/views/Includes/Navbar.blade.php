@@ -29,7 +29,10 @@
                                 <a class="nav-link" href="{{ url('/vogelwerkgroep') }}">Vogelwerkgroep</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/contact') }}">contact</a>
+                                <a class="nav-link" href="{{ url('/gallery') }}">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ url('/contact') }}">Contact</a>
                             </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -37,6 +40,7 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a>
                         </li>
+
                         </ul>
                     @else
                         <li class="nav-item dropdown">
